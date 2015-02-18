@@ -1,6 +1,6 @@
 module Spree
   module Wombat
-    class AssemblyShipmentSerializer < ShipmentSerializer
+    class AssemblyShipmentSerializer < Spree::Wombat::ShipmentSerializer
 
       attributes :items
 
